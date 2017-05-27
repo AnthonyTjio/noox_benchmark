@@ -1,0 +1,1715 @@
+Step 1
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 1.0 minute(s) : 31.878193999999993 second(s)
+
+Step 2
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 18.459565999999995 second(s)
+
+Step 3
+precision: 1.0 - recall: 0.5
+interval: 0.0 hour(s) : 0.0 minute(s) : 42.840704 second(s)
+
+Step 1
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 4.0 minute(s) : 33.428672000000006 second(s)
+
+Step 2
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 50.06969599999999 second(s)
+
+Step 3
+precision: 1.0 - recall: 0.047619047619047616
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.95855800000001 second(s)
+
+Step 4
+precision: 1.0 - recall: 0.03225806451612903
+interval: 0.0 hour(s) : 2.0 minute(s) : 19.889557999999994 second(s)
+
+Step 5
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.107274999999987 second(s)
+
+Step 6
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.30013600000001 second(s)
+
+Step 7
+precision: 0.5 - recall: 0.047619047619047616
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.08897300000001 second(s)
+
+Step 8
+precision: 1.0 - recall: 0.12903225806451613
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.536815999999988 second(s)
+
+Step 9
+precision: 1.0 - recall: 0.03571428571428571
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.13271800000001 second(s)
+
+Step 10
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.593703000000005 second(s)
+
+Step 11
+precision: 0.3333333333333333 - recall: 0.047619047619047616
+interval: 0.0 hour(s) : 2.0 minute(s) : 58.434020000000004 second(s)
+
+Step 12
+precision: 0.8666666666666667 - recall: 0.41935483870967744
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.23157900000001 second(s)
+
+Step 13
+precision: 0.55 - recall: 0.39285714285714285
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.600520999999986 second(s)
+
+Step 14
+precision: 0.23076923076923078 - recall: 0.16666666666666666
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.449887999999987 second(s)
+
+Step 15
+precision: 0.5 - recall: 0.5238095238095238
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.592047000000008 second(s)
+
+Step 16
+precision: 0.7916666666666666 - recall: 0.6129032258064516
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.27977899999999 second(s)
+
+Step 17
+precision: 0.5416666666666666 - recall: 0.4642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.485208999999998 second(s)
+
+Step 18
+precision: 0.3157894736842105 - recall: 0.3333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.230178999999993 second(s)
+
+Step 19
+precision: 0.5384615384615384 - recall: 0.3333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.30621500000001 second(s)
+
+Step 20
+precision: 0.5 - recall: 0.12903225806451613
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.644487999999996 second(s)
+
+Step 21
+precision: 0.3333333333333333 - recall: 0.10714285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 44.615837 second(s)
+
+Step 22
+precision: 0.2222222222222222 - recall: 0.1111111111111111
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.631414000000007 second(s)
+
+Step 23
+precision: 0.6666666666666666 - recall: 0.2857142857142857
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.553780999999987 second(s)
+
+Step 24
+precision: 1.0 - recall: 0.25806451612903225
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.73443900000001 second(s)
+
+Step 25
+precision: 0.47058823529411764 - recall: 0.2857142857142857
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.03001599999999 second(s)
+
+Step 26
+precision: 0.3 - recall: 0.5
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.584012 second(s)
+
+Step 27
+precision: 0.41379310344827586 - recall: 0.5714285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.570022999999992 second(s)
+
+Step 28
+precision: 0.696969696969697 - recall: 0.7419354838709677
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.33551399999999 second(s)
+
+Step 29
+precision: 0.5806451612903226 - recall: 0.6428571428571429
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.575570999999997 second(s)
+
+Step 30
+precision: 0.375 - recall: 0.6666666666666666
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.24516600000001 second(s)
+
+Step 31
+precision: 0.375 - recall: 0.5714285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 49.73715999999999 second(s)
+
+Step 32
+precision: 0.7352941176470589 - recall: 0.8064516129032258
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.449320999999998 second(s)
+
+Step 33
+precision: 0.5641025641025641 - recall: 0.7857142857142857
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.2423 second(s)
+
+Step 34
+precision: 0.3235294117647059 - recall: 0.6111111111111112
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.98506499999999 second(s)
+
+Step 35
+precision: 0.4 - recall: 0.5714285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.47509199999999 second(s)
+
+Step 36
+precision: 0.6341463414634146 - recall: 0.8387096774193549
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.490042999999986 second(s)
+
+Step 37
+precision: 0.4838709677419355 - recall: 0.5357142857142857
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.824939 second(s)
+
+Step 38
+precision: 0.4074074074074074 - recall: 0.6111111111111112
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.062990000000013 second(s)
+
+Step 39
+precision: 0.5 - recall: 0.6190476190476191
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.913793 second(s)
+
+Step 40
+precision: 0.782608695652174 - recall: 0.5806451612903226
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.696758999999986 second(s)
+
+Step 41
+precision: 0.5 - recall: 0.42857142857142855
+interval: 0.0 hour(s) : 2.0 minute(s) : 42.48972900000001 second(s)
+
+Step 42
+precision: 0.4230769230769231 - recall: 0.6111111111111112
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.38922500000001 second(s)
+
+Step 43
+precision: 0.5454545454545454 - recall: 0.5714285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.195137999999986 second(s)
+
+Step 44
+precision: 0.7575757575757576 - recall: 0.8064516129032258
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.125586999999996 second(s)
+
+Step 45
+precision: 0.48484848484848486 - recall: 0.5714285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.948541000000006 second(s)
+
+Step 46
+precision: 0.3548387096774194 - recall: 0.6111111111111112
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.01613900000001 second(s)
+
+Step 47
+precision: 0.45714285714285713 - recall: 0.7619047619047619
+interval: 0.0 hour(s) : 2.0 minute(s) : 20.991635000000002 second(s)
+
+Step 48
+precision: 0.6388888888888888 - recall: 0.7419354838709677
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.08141599999999 second(s)
+
+Step 49
+precision: 0.5833333333333334 - recall: 0.75
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.008430000000004 second(s)
+
+Step 50
+precision: 0.3333333333333333 - recall: 0.8333333333333334
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.21821700000001 second(s)
+
+Step 51
+precision: 0.4444444444444444 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 2.0 minute(s) : 43.56522100000001 second(s)
+
+Step 52
+precision: 0.6170212765957447 - recall: 0.9354838709677419
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.29061999999999 second(s)
+
+Step 53
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.549995999999993 second(s)
+
+Step 54
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.35288299999999 second(s)
+
+Step 55
+precision: 0.40816326530612246 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.64521099999999 second(s)
+
+Step 56
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.311076000000014 second(s)
+
+Step 57
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.96014600000001 second(s)
+
+Step 58
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.027387000000004 second(s)
+
+Step 59
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.825666000000012 second(s)
+
+Step 60
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.626222000000013 second(s)
+
+Step 61
+precision: 0.5434782608695652 - recall: 0.8928571428571429
+interval: 0.0 hour(s) : 2.0 minute(s) : 46.505533000000014 second(s)
+
+Step 62
+precision: 0.40476190476190477 - recall: 0.9444444444444444
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.627883999999995 second(s)
+
+Step 63
+precision: 0.4318181818181818 - recall: 0.9047619047619048
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.149396999999993 second(s)
+
+Step 64
+precision: 0.7027027027027027 - recall: 0.8387096774193549
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.55667600000001 second(s)
+
+Step 65
+precision: 0.5365853658536586 - recall: 0.7857142857142857
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.596233000000012 second(s)
+
+Step 66
+precision: 0.3673469387755102 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.358101000000005 second(s)
+
+Step 67
+precision: 0.40816326530612246 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.794294000000008 second(s)
+
+Step 68
+precision: 0.6122448979591837 - recall: 0.967741935483871
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.813022999999987 second(s)
+
+Step 69
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.162026999999995 second(s)
+
+Step 70
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.269453999999996 second(s)
+
+Step 71
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 43.845158 second(s)
+
+Step 72
+precision: 0.6326530612244898 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.05233899999999 second(s)
+
+Step 73
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.053032 second(s)
+
+Step 74
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.868312000000003 second(s)
+
+Step 75
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.837996000000004 second(s)
+
+Step 76
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.30586600000001 second(s)
+
+Step 77
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.90452400000001 second(s)
+
+Step 78
+precision: 0.3673469387755102 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.114135000000005 second(s)
+
+Step 79
+precision: 0.43478260869565216 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.189167999999995 second(s)
+
+Step 80
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.756865000000005 second(s)
+
+Step 81
+precision: 0.5714285714285714 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 42.316744 second(s)
+
+Step 82
+precision: 0.375 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.30696599999999 second(s)
+
+Step 83
+precision: 0.40425531914893614 - recall: 0.9047619047619048
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.232336000000004 second(s)
+
+Step 84
+precision: 0.6382978723404256 - recall: 0.967741935483871
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.300419000000005 second(s)
+
+Step 85
+precision: 0.5416666666666666 - recall: 0.9285714285714286
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.34184300000001 second(s)
+
+Step 86
+precision: 0.3541666666666667 - recall: 0.9444444444444444
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.897819 second(s)
+
+Step 87
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.616867000000013 second(s)
+
+Step 88
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.96121099999999 second(s)
+
+Step 89
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.834518000000003 second(s)
+
+Step 90
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.265546999999998 second(s)
+
+Step 91
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 3.0 minute(s) : 21.372018999999995 second(s)
+
+Step 92
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.590625999999986 second(s)
+
+Step 93
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.178189000000003 second(s)
+
+Step 94
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.80267699999999 second(s)
+
+Step 95
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.858111000000008 second(s)
+
+Step 96
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.26192900000001 second(s)
+
+Step 97
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.883599000000004 second(s)
+
+Step 98
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.090406 second(s)
+
+Step 99
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.84521699999999 second(s)
+
+Step 100
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.80316099999999 second(s)
+
+Step 101
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 51.615441000000004 second(s)
+
+Step 102
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.840835 second(s)
+
+Step 103
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.95945499999999 second(s)
+
+Step 104
+precision: 0.6122448979591837 - recall: 0.967741935483871
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.431684999999987 second(s)
+
+Step 105
+precision: 0.5319148936170213 - recall: 0.8928571428571429
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.11001200000001 second(s)
+
+Step 106
+precision: 0.3541666666666667 - recall: 0.9444444444444444
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.939596999999992 second(s)
+
+Step 107
+precision: 0.42857142857142855 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.256272999999993 second(s)
+
+Step 108
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.959528000000006 second(s)
+
+Step 109
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.983588999999995 second(s)
+
+Step 110
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.947281000000004 second(s)
+
+Step 111
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 47.449656000000004 second(s)
+
+Step 112
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.167446000000012 second(s)
+
+Step 113
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.39396400000001 second(s)
+
+Step 114
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.692620000000005 second(s)
+
+Step 115
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.640366 second(s)
+
+Step 116
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.134514999999993 second(s)
+
+Step 117
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.06298799999999 second(s)
+
+Step 118
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.855434000000002 second(s)
+
+Step 119
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.835667 second(s)
+
+Step 120
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.778519999999986 second(s)
+
+Step 121
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 46.606369 second(s)
+
+Step 122
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.795027000000005 second(s)
+
+Step 123
+precision: 0.4166666666666667 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.648539999999997 second(s)
+
+Step 124
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.974886999999995 second(s)
+
+Step 125
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.08853400000001 second(s)
+
+Step 126
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.93166199999999 second(s)
+
+Step 127
+precision: 0.3958333333333333 - recall: 0.9047619047619048
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.037938999999994 second(s)
+
+Step 128
+precision: 0.6458333333333334 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.790808999999996 second(s)
+
+Step 129
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.82683 second(s)
+
+Step 130
+precision: 0.375 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.668689 second(s)
+
+Step 131
+precision: 0.40816326530612246 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 2.0 minute(s) : 46.616761 second(s)
+
+Step 132
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.133456999999993 second(s)
+
+Step 133
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.949326000000013 second(s)
+
+Step 134
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.936769999999996 second(s)
+
+Step 135
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.11340899999999 second(s)
+
+Step 136
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.939900999999992 second(s)
+
+Step 137
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.304689999999994 second(s)
+
+Step 138
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.296935999999988 second(s)
+
+Step 139
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.226578999999987 second(s)
+
+Step 140
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.378442000000007 second(s)
+
+Step 141
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 47.348409000000004 second(s)
+
+Step 142
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.416656999999987 second(s)
+
+Step 143
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.464315 second(s)
+
+Step 144
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.309935999999993 second(s)
+
+Step 145
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.13584 second(s)
+
+Step 146
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.338961000000012 second(s)
+
+Step 147
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.371257000000014 second(s)
+
+Step 148
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.432249000000013 second(s)
+
+Step 149
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.50582700000001 second(s)
+
+Step 150
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.64496600000001 second(s)
+
+Step 151
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 46.587513 second(s)
+
+Step 152
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.46649400000001 second(s)
+
+Step 153
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.129424 second(s)
+
+Step 154
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.192881 second(s)
+
+Step 155
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.798733 second(s)
+
+Step 156
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.34690900000001 second(s)
+
+Step 157
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.751206999999994 second(s)
+
+Step 158
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.49391399999999 second(s)
+
+Step 159
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.91823099999999 second(s)
+
+Step 160
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.070272999999986 second(s)
+
+Step 161
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 49.15493000000001 second(s)
+
+Step 162
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 29.946687999999995 second(s)
+
+Step 163
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 11.0 minute(s) : 2.547967999999969 second(s)
+
+Step 164
+precision: 0.6326530612244898 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.941703999999987 second(s)
+
+Step 165
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.528573999999992 second(s)
+
+Step 166
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.733668999999992 second(s)
+
+Step 167
+precision: 0.42857142857142855 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.02111099999999 second(s)
+
+Step 168
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.33847800000001 second(s)
+
+Step 169
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.200175 second(s)
+
+Step 170
+precision: 0.3673469387755102 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.305240999999995 second(s)
+
+Step 171
+precision: 0.40816326530612246 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 3.0 minute(s) : 14.345101 second(s)
+
+Step 172
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.409110999999996 second(s)
+
+Step 173
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.37975399999999 second(s)
+
+Step 174
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.37376599999999 second(s)
+
+Step 175
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.36466200000001 second(s)
+
+Step 176
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.202456000000012 second(s)
+
+Step 177
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.725280999999995 second(s)
+
+Step 178
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.32591099999999 second(s)
+
+Step 179
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.56732600000001 second(s)
+
+Step 180
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.883490999999992 second(s)
+
+Step 181
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 3.0 minute(s) : 7.312639999999988 second(s)
+
+Step 182
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.086678000000006 second(s)
+
+Step 183
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.57245499999999 second(s)
+
+Step 184
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 30.09527 second(s)
+
+Step 185
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.842782 second(s)
+
+Step 186
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.689301 second(s)
+
+Step 187
+precision: 0.40816326530612246 - recall: 0.9523809523809523
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.659744999999987 second(s)
+
+Step 188
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.792227999999994 second(s)
+
+Step 189
+precision: 0.5510204081632653 - recall: 0.9642857142857143
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.92891800000001 second(s)
+
+Step 190
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.346681999999987 second(s)
+
+Step 191
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 3.0 minute(s) : 2.8417359999999974 second(s)
+
+Step 192
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.396539999999987 second(s)
+
+Step 193
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.614771999999988 second(s)
+
+Step 194
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 29.655607000000003 second(s)
+
+Step 195
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.637113 second(s)
+
+Step 196
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.451751 second(s)
+
+Step 197
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.272795000000002 second(s)
+
+Step 198
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 36.68180100000001 second(s)
+
+Step 199
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.136224 second(s)
+
+Step 200
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.77346 second(s)
+
+Step 201
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 3.0 minute(s) : 23.915944999999994 second(s)
+
+Step 202
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 44.44052199999999 second(s)
+
+Step 203
+precision: 0.42857142857142855 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.41525200000001 second(s)
+
+Step 204
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.43511799999999 second(s)
+
+Step 205
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.615678000000003 second(s)
+
+Step 206
+precision: 0.3469387755102041 - recall: 0.9444444444444444
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.81095099999999 second(s)
+
+Step 207
+precision: 0.4375 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.628738999999996 second(s)
+
+Step 208
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.664456 second(s)
+
+Step 209
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.43033600000001 second(s)
+
+Step 210
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.777771 second(s)
+
+Step 211
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 49.781307999999996 second(s)
+
+Step 212
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.18200300000001 second(s)
+
+Step 213
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.524856999999997 second(s)
+
+Step 214
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.585498 second(s)
+
+Step 215
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.317268000000013 second(s)
+
+Step 216
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.836252 second(s)
+
+Step 217
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.910624000000013 second(s)
+
+Step 218
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.17503400000001 second(s)
+
+Step 219
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.641869000000014 second(s)
+
+Step 220
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.094430999999986 second(s)
+
+Step 221
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 50.883381000000014 second(s)
+
+Step 222
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.956515999999993 second(s)
+
+Step 223
+precision: 0.42 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.22768400000001 second(s)
+
+Step 224
+precision: 0.62 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 29.153073000000006 second(s)
+
+Step 225
+precision: 0.56 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.391121999999996 second(s)
+
+Step 226
+precision: 0.36 - recall: 1.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.097229999999996 second(s)
+
+Step 1
+precision: 0.4791666666666667 - recall: 0.9583333333333334
+interval: 0.0 hour(s) : 8.0 minute(s) : 49.687247999999954 second(s)
+
+Step 2
+precision: 0.5333333333333333 - recall: 0.9230769230769231
+interval: 0.0 hour(s) : 2.0 minute(s) : 35.40920700000001 second(s)
+
+Step 3
+precision: 0.5909090909090909 - recall: 0.8666666666666667
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.247501 second(s)
+
+Step 4
+precision: 0.5909090909090909 - recall: 0.9285714285714286
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.91541699999999 second(s)
+
+Step 5
+precision: 0.4358974358974359 - recall: 0.7083333333333334
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.210983 second(s)
+
+Step 6
+precision: 0.43243243243243246 - recall: 0.6153846153846154
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.348180000000013 second(s)
+
+Step 7
+precision: 0.5428571428571428 - recall: 0.6333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.767167 second(s)
+
+Step 8
+precision: 0.5675675675675675 - recall: 0.75
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.712157999999988 second(s)
+
+Step 9
+precision: 0.41935483870967744 - recall: 0.5416666666666666
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.227616000000012 second(s)
+
+Step 10
+precision: 0.47368421052631576 - recall: 0.34615384615384615
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.765217000000007 second(s)
+
+Step 11
+precision: 0.5384615384615384 - recall: 0.23333333333333334
+interval: 0.0 hour(s) : 3.0 minute(s) : 9.131330999999989 second(s)
+
+Step 12
+precision: 0.25 - recall: 0.07142857142857142
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.673429 second(s)
+
+Step 13
+precision: 0.5 - recall: 0.125
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.222181000000006 second(s)
+
+Step 14
+precision: 0.25 - recall: 0.07692307692307693
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.156065000000012 second(s)
+
+Step 15
+precision: 0.8 - recall: 0.13333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.437625999999995 second(s)
+
+Step 16
+precision: 0.3333333333333333 - recall: 0.03571428571428571
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.573048 second(s)
+
+Step 17
+precision: 0.5 - recall: 0.041666666666666664
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.41283999999999 second(s)
+
+Step 18
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.89989700000001 second(s)
+
+Step 19
+precision: 0.3333333333333333 - recall: 0.03333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.01958300000001 second(s)
+
+Step 20
+precision: 0.5 - recall: 0.03571428571428571
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.640839999999997 second(s)
+
+Step 21
+precision: 1.0 - recall: 0.08333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 47.05408600000001 second(s)
+
+Step 22
+precision: 1.0 - recall: 0.038461538461538464
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.556033000000014 second(s)
+
+Step 23
+precision: 1.0 - recall: 0.06666666666666667
+interval: 0.0 hour(s) : 2.0 minute(s) : 31.758758999999998 second(s)
+
+Step 24
+precision: 0.6666666666666666 - recall: 0.07142857142857142
+interval: 0.0 hour(s) : 2.0 minute(s) : 35.05730600000001 second(s)
+
+Step 25
+precision: 0.5 - recall: 0.041666666666666664
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.23860099999999 second(s)
+
+Step 26
+precision: 0.8333333333333334 - recall: 0.19230769230769232
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.31010900000001 second(s)
+
+Step 27
+precision: 0.5714285714285714 - recall: 0.13333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.486313999999993 second(s)
+
+Step 28
+precision: 0.6428571428571429 - recall: 0.32142857142857145
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.96253200000001 second(s)
+
+Step 29
+precision: 0.5 - recall: 0.375
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.133481999999987 second(s)
+
+Step 30
+precision: 0.6052631578947368 - recall: 0.8846153846153846
+interval: 0.0 hour(s) : 2.0 minute(s) : 21.54207500000001 second(s)
+
+Step 31
+precision: 0.5 - recall: 0.5666666666666667
+interval: 0.0 hour(s) : 2.0 minute(s) : 55.73101 second(s)
+
+Step 32
+precision: 0.5897435897435898 - recall: 0.8214285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.210120999999987 second(s)
+
+Step 33
+precision: 0.4857142857142857 - recall: 0.7083333333333334
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.96736899999999 second(s)
+
+Step 34
+precision: 0.5517241379310345 - recall: 0.6153846153846154
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.56974199999999 second(s)
+
+Step 35
+precision: 0.5517241379310345 - recall: 0.5333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.254777999999988 second(s)
+
+Step 36
+precision: 0.45454545454545453 - recall: 0.35714285714285715
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.117176999999998 second(s)
+
+Step 37
+precision: 0.5 - recall: 0.4583333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.549552000000006 second(s)
+
+Step 38
+precision: 0.6428571428571429 - recall: 0.34615384615384615
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.206165999999996 second(s)
+
+Step 39
+precision: 0.5714285714285714 - recall: 0.13333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.025633 second(s)
+
+Step 40
+precision: 0.36363636363636365 - recall: 0.14285714285714285
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.244865000000004 second(s)
+
+Step 41
+precision: 0.42857142857142855 - recall: 0.25
+interval: 0.0 hour(s) : 2.0 minute(s) : 45.28607299999999 second(s)
+
+Step 42
+precision: 0.25 - recall: 0.038461538461538464
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.304214 second(s)
+
+Step 43
+precision: 0.5714285714285714 - recall: 0.13333333333333333
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.086072 second(s)
+
+Step 44
+precision: 0.3333333333333333 - recall: 0.10714285714285714
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.243921 second(s)
+
+Step 45
+precision: 0.2 - recall: 0.041666666666666664
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.068788000000012 second(s)
+
+Step 46
+precision: 0.3333333333333333 - recall: 0.038461538461538464
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.48317399999999 second(s)
+
+Step 47
+precision: 0.6666666666666666 - recall: 0.06666666666666667
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.83432400000001 second(s)
+
+Step 48
+precision: 0.5 - recall: 0.03571428571428571
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.218362000000013 second(s)
+
+Step 49
+precision: 0.5 - recall: 0.041666666666666664
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.61438000000001 second(s)
+
+Step 50
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.333940000000013 second(s)
+
+Step 51
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 43.292035999999996 second(s)
+
+Step 52
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.261639000000002 second(s)
+
+Step 53
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.218398000000008 second(s)
+
+Step 54
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.508759999999995 second(s)
+
+Step 55
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.676378999999997 second(s)
+
+Step 56
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.107983999999988 second(s)
+
+Step 57
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.689902999999987 second(s)
+
+Step 58
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.58115699999999 second(s)
+
+Step 59
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.152489000000003 second(s)
+
+Step 60
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.08573899999999 second(s)
+
+Step 61
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 51.45205300000001 second(s)
+
+Step 62
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.766718999999995 second(s)
+
+Step 63
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.661648000000014 second(s)
+
+Step 64
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.492388000000005 second(s)
+
+Step 65
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.86378099999999 second(s)
+
+Step 66
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.556377999999995 second(s)
+
+Step 67
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.613495999999998 second(s)
+
+Step 68
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.075405999999987 second(s)
+
+Step 69
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.12489500000001 second(s)
+
+Step 70
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 29.890029 second(s)
+
+Step 71
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 52.376476999999994 second(s)
+
+Step 72
+precision: 1.0 - recall: 0.07142857142857142
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.503879000000012 second(s)
+
+Step 73
+precision: 0.3333333333333333 - recall: 0.041666666666666664
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.372964999999994 second(s)
+
+Step 74
+precision: 0.6666666666666666 - recall: 0.07692307692307693
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.890681999999998 second(s)
+
+Step 75
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.139015999999998 second(s)
+
+Step 76
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.36713900000001 second(s)
+
+Step 77
+precision: 0.42857142857142855 - recall: 0.125
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.021597000000014 second(s)
+
+Step 78
+precision: 0.3333333333333333 - recall: 0.038461538461538464
+interval: 0.0 hour(s) : 2.0 minute(s) : 22.820501000000007 second(s)
+
+Step 79
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.438976999999994 second(s)
+
+Step 80
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.330206000000004 second(s)
+
+Step 81
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 45.70858000000001 second(s)
+
+Step 82
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.877481999999986 second(s)
+
+Step 83
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.276398999999998 second(s)
+
+Step 84
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.448398999999995 second(s)
+
+Step 85
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.38548 second(s)
+
+Step 86
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.85699600000001 second(s)
+
+Step 87
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.668982999999997 second(s)
+
+Step 88
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.331052999999997 second(s)
+
+Step 89
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.484717999999987 second(s)
+
+Step 90
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.465114 second(s)
+
+Step 91
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 46.215371000000005 second(s)
+
+Step 92
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.22344000000001 second(s)
+
+Step 93
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.119895000000014 second(s)
+
+Step 94
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.462428999999986 second(s)
+
+Step 95
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.417065000000008 second(s)
+
+Step 96
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.693206000000004 second(s)
+
+Step 97
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 23.777366 second(s)
+
+Step 98
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.11035100000001 second(s)
+
+Step 99
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.521477000000004 second(s)
+
+Step 100
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.412903 second(s)
+
+Step 101
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 52.199820999999986 second(s)
+
+Step 102
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.685371000000004 second(s)
+
+Step 103
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.268196999999986 second(s)
+
+Step 104
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.64387400000001 second(s)
+
+Step 105
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.56840600000001 second(s)
+
+Step 106
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.804457000000014 second(s)
+
+Step 107
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.491792000000004 second(s)
+
+Step 108
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.367678000000012 second(s)
+
+Step 109
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.282095999999996 second(s)
+
+Step 110
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.43950799999999 second(s)
+
+Step 111
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 53.66124300000001 second(s)
+
+Step 112
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.569017000000002 second(s)
+
+Step 113
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.437486000000007 second(s)
+
+Step 114
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.282353 second(s)
+
+Step 115
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.345719000000003 second(s)
+
+Step 116
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.088547000000005 second(s)
+
+Step 117
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.17525599999999 second(s)
+
+Step 118
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.082932 second(s)
+
+Step 119
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.300495000000012 second(s)
+
+Step 120
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.219763 second(s)
+
+Step 121
+precision: 1.0 - recall: 0.041666666666666664
+interval: 0.0 hour(s) : 2.0 minute(s) : 51.791122 second(s)
+
+Step 122
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.496244999999988 second(s)
+
+Step 123
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.120884999999987 second(s)
+
+Step 124
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.586197 second(s)
+
+Step 125
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.005299000000008 second(s)
+
+Step 126
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.32993300000001 second(s)
+
+Step 127
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.48881700000001 second(s)
+
+Step 128
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.865059000000002 second(s)
+
+Step 129
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.075863 second(s)
+
+Step 130
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 24.747546999999997 second(s)
+
+Step 131
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 50.34972400000001 second(s)
+
+Step 132
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.179045000000002 second(s)
+
+Step 133
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.457448 second(s)
+
+Step 134
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.630351999999988 second(s)
+
+Step 135
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.982223000000005 second(s)
+
+Step 136
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.095450999999997 second(s)
+
+Step 137
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.378276999999997 second(s)
+
+Step 138
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.156864000000013 second(s)
+
+Step 139
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.07332500000001 second(s)
+
+Step 140
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.58415099999999 second(s)
+
+Step 141
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 46.79835600000001 second(s)
+
+Step 142
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.18105299999999 second(s)
+
+Step 143
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.484769 second(s)
+
+Step 144
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.359804999999994 second(s)
+
+Step 145
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.28241299999999 second(s)
+
+Step 146
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.543009000000012 second(s)
+
+Step 147
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.27404100000001 second(s)
+
+Step 148
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.816527000000008 second(s)
+
+Step 149
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.35887199999999 second(s)
+
+Step 150
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.883398 second(s)
+
+Step 151
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 46.21715599999999 second(s)
+
+Step 152
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.46096399999999 second(s)
+
+Step 153
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.71262200000001 second(s)
+
+Step 154
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.867092000000014 second(s)
+
+Step 155
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.07286099999999 second(s)
+
+Step 156
+precision: 1.0 - recall: 0.03571428571428571
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.27314100000001 second(s)
+
+Step 157
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.796290999999997 second(s)
+
+Step 158
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.898397999999986 second(s)
+
+Step 159
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.162184999999994 second(s)
+
+Step 160
+precision: 1.0 - recall: 0.03571428571428571
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.389933000000013 second(s)
+
+Step 161
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 48.265657000000004 second(s)
+
+Step 162
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.789986999999996 second(s)
+
+Step 163
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.731344000000007 second(s)
+
+Step 164
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.758148000000006 second(s)
+
+Step 165
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.111231000000004 second(s)
+
+Step 166
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.223649999999992 second(s)
+
+Step 167
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 25.904325999999998 second(s)
+
+Step 168
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.189589000000012 second(s)
+
+Step 169
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.164207000000005 second(s)
+
+Step 170
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.206851999999998 second(s)
+
+Step 171
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 54.09904499999999 second(s)
+
+Step 172
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.146850999999998 second(s)
+
+Step 173
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.436406000000005 second(s)
+
+Step 174
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.288962999999995 second(s)
+
+Step 175
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.485460999999987 second(s)
+
+Step 176
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.79646299999999 second(s)
+
+Step 177
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.30630500000001 second(s)
+
+Step 178
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.85178400000001 second(s)
+
+Step 179
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 29.30845400000001 second(s)
+
+Step 180
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.748970000000014 second(s)
+
+Step 181
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 50.03957199999999 second(s)
+
+Step 182
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.328705000000014 second(s)
+
+Step 183
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.758866000000012 second(s)
+
+Step 184
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.283100999999988 second(s)
+
+Step 185
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.412668999999994 second(s)
+
+Step 186
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 28.972861999999992 second(s)
+
+Step 187
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.24061900000001 second(s)
+
+Step 188
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.572415000000007 second(s)
+
+Step 189
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.45872700000001 second(s)
+
+Step 190
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.486372999999986 second(s)
+
+Step 191
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 48.478178000000014 second(s)
+
+Step 192
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.547978 second(s)
+
+Step 193
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.553278000000006 second(s)
+
+Step 194
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.99866800000001 second(s)
+
+Step 195
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.225189 second(s)
+
+Step 196
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.860038000000003 second(s)
+
+Step 197
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 26.661700999999994 second(s)
+
+Step 198
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.674159000000003 second(s)
+
+Step 199
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.40482800000001 second(s)
+
+Step 200
+precision: 0.0 - recall: 0.0
+interval: 0.0 hour(s) : 2.0 minute(s) : 27.073544999999996 second(s)
