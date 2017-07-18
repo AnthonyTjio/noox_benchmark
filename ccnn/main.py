@@ -29,7 +29,7 @@ if(command=="createmodel"):
 	if not label_column:
 		label_column = 3
 	if not ratio:
-		ratio = 0.8
+		ratio = 0.6
 
 	Driver.initial_train(input_file, content_rows=data_column, label_row=label_column, ratio=ratio)	
 

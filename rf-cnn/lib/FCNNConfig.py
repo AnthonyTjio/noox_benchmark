@@ -1,5 +1,6 @@
 class ModelConfig(object):
 	frame_size = 30 # From pretrained vector
+	labels = "01"
 
 	max_word_count = 800 # Sequence Length
 	sequence_length = max_word_count

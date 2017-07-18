@@ -2,6 +2,8 @@ import sys
 from datetime import datetime
 import re
 
+import tables
+import random
 from random import randint
 import numpy as np
 import json
@@ -14,7 +16,12 @@ from .FCNNConfig import FCNNConfig
 
 class FCNNPreprocessor:
 	config = FCNNConfig()
+
 	max_word_count = config.model.max_word_count
+
+	word_vector_size = config.model.frame_size
+	labels = config.model.labels
+	labels_length = len(labels)
 
 	@classmethod
 	def get_content_data(cls, np_data, content_rows=[1,2]):
@@ -43,9 +50,18 @@ class FCNNPreprocessor:
 	@classmethod
 	def convert_dataset(cls, np_data, content_rows=[1,2], label_row=3, reverse=True, convert_to_vector=True):
 		# Merge content_rows and remove all non-content and non-label rows
-		x_inputs = None
-		y_labels = None
-		print(cls.config.word_model.model_dir)
+		content_file = tables.open_file('fcnn_input.h5', mode="w")
+		label_file = tables.open_file('fcnn_label.h5', mode="w")
+		x_inputs= content_file.create_vlarray(content_file.root, 
+													'fcnn_input', 
+													tables.Int8Atom(shape=(cls.word_vector_size, cls.max_word_count)), 
+													"fcnn inputs", 
+													filters=tables.Filters(1))
+		y_labels = label_file.create_vlarray(label_file.root,
+												'fcnn_label',
+												tables.Int8Atom(shape=(cls.labels_length)),
+												'fcnn lables',
+												filters=tables.Filters(1))	
 		model = fasttext.load_model(cls.config.word_model.model_dir)
 
 		for i, rows in enumerate(np_data):
@@ -81,26 +97,52 @@ class FCNNPreprocessor:
 			label_eye = np.eye(cls.config.model.num_of_classes, dtype=int)
 			label_vector = label_eye[int(label)]
 
-			if x_inputs is not None:
-				x_inputs = np.append(x_inputs, [content_vector], axis=0)
-				y_labels = np.append(y_labels, [label_vector], axis=0)
-			else:
-				x_inputs = np.array([content_vector])
-				y_labels = np.array([label_vector])
-
-			# print("Input Data: {}".format(content_vector.shape))
-			# print("Label Data: {}".format(label_vector.shape))
+			x_inputs.append(content_vector)
+			y_labels.append(label_vector)
 
 		return x_inputs, y_labels
 
-
-
 	@classmethod
-	def shuffleData(cls, data_size):
+	def shuffleData(cls, data, label_row=3, ratio=0.6):		
 		np.random.seed(randint(0,300))
 
-		shuffle_indices = np.random.permutation(np.arange(data_size))
-		return shuffle_indices
+		shuffle_indices = np.random.permutation(len(data)-1)
+
+		training_indices = []
+		test_indices = []
+
+		label_0_indices = []
+		label_1_indices = []
+		for i in shuffle_indices:
+			if (data[i][label_row] == '0'):
+				label_0_indices.append(i)
+			else:
+				label_1_indices.append(i)
+
+		training_size = int(len(data) * ratio)
+
+		random.seed(2000)
+		random.shuffle(label_0_indices)
+		random.shuffle(label_1_indices)
+
+		batch_size = cls.config.training.batch_size
+		d1_size = int(batch_size * float(len(label_1_indices) / len(data)))
+		d0_size = batch_size - d1_size
+		d_indices = []
+		
+		i = 0
+		while i*batch_size < len(data):
+			d_indices.extend(label_0_indices[i*d0_size: (i+1)*d0_size])
+			d_indices.extend(label_1_indices[i*d1_size: (i+1)*d1_size])
+			i += 1
+		print(d0_size)
+		print(d1_size)
+		print(len(d_indices))
+
+		training_indices.extend(d_indices[:training_size])
+		test_indices.extend(d_indices[training_size:])
+
+		return training_indices, test_indices
 
 	@classmethod
 	def get_word_count_information_from_article_list(cls, training_dir, content_rows=[0, 1, 2]):

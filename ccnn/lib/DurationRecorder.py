@@ -86,7 +86,7 @@ class DurationRecorder:
 
 		accuracy_plot = plt.subplot(2, 2, 2)
 		plt.title("Accuracy")
-		plt.xlabel("Validation")
+		plt.xlabel("validation")
 		plt.ylabel("Accuracy")
 
 		avg_acc = sum(cls.acc_list) / float(len(cls.acc_list))
@@ -95,7 +95,7 @@ class DurationRecorder:
 
 		interval_plot = plt.subplot(2, 2, 3)
 		plt.title("Interval")
-		plt.xlabel("Validation")
+		plt.xlabel("validation")
 		plt.ylabel("Seconds")
 
 		avg_diff = sum(cls.diff_list) / float(len(cls.diff_list))
@@ -124,9 +124,11 @@ class DurationRecorder:
 			minute, second = divmod(reminder, 60)	
 
 		if log_dir is not None:
-			log_info = "Validation {}\n".format(validation)
+			log_info = "validation {}\n".format(validation)
 			log_info += "precision: {} - recall: {}\n".format(precision, recall)
 			log_info += "interval: {} hour(s) : {} minute(s) : {} second(s)\n\n".format(hour, minute, second)
+
+			print(log_info)
 
 			writer = open(log_dir, 'a')
 			writer.write(log_info)
@@ -161,7 +163,7 @@ class DurationRecorder:
 
 		precision_plot = plt.subplot(2, 2, 1)
 		plt.title("Precision")
-		plt.xlabel("Validation")
+		plt.xlabel("validation")
 		plt.ylabel("Precision")
 
 		avg_prec = sum(cls.prec_list) / float(len(cls.prec_list))
@@ -170,7 +172,7 @@ class DurationRecorder:
 
 		recall_plot = plt.subplot(2, 2, 2)
 		plt.title("Recall")
-		plt.xlabel("Validation")
+		plt.xlabel("validation")
 		plt.ylabel("Recall")
 
 		avg_recall = sum(cls.recall_list) / float(len(cls.recall_list))
@@ -192,16 +194,21 @@ class DurationRecorder:
 		cls.prev_plot_time = curr_time
 
 	@classmethod
-	def pr_csv_plotter(cls, np_data, validation_index=0, interval_index=1, precision_index=2, recall_index=3, every_validation=1):
+	def pr_csv_plotter(cls, np_data, validation_index=0, interval_index=1, precision_index=2, recall_index=3, every_step=1):
 		print("Creating Plot")
-		cls.validation_list = np_data[::every_validation, validation_index]
-		cls.diff_list = np_data[::every_validation, interval_index]
-		cls.prec_list = np_data[::every_validation, precision_index]
-		cls.recall_list = np_data[::every_validation, recall_index]
+		cls.validation_list = np_data[::every_step, validation_index]
+		cls.diff_list = np_data[::every_step, interval_index]
+		cls.prec_list = np_data[::every_step, precision_index]
+		cls.recall_list = np_data[::every_step, recall_index]
+
+		print(len(cls.validation_list))
+		print(len(cls.diff_list))
+		print(len(cls.prec_list))
+		print(len(cls.recall_list))
 
 		precision_plot = plt.subplot(2, 2, 1)
 		plt.title("Precision")
-		plt.xlabel("Validation")
+		plt.xlabel("validation")
 		plt.ylabel("Precision")
 
 		avg_prec = sum(cls.prec_list) / float(len(cls.prec_list))
@@ -210,7 +217,7 @@ class DurationRecorder:
 
 		recall_plot = plt.subplot(2, 2, 2)
 		plt.title("Recall")
-		plt.xlabel("Validation")
+		plt.xlabel("validation")
 		plt.ylabel("Recall")
 
 		avg_recall = sum(cls.recall_list) / float(len(cls.recall_list))
@@ -219,7 +226,7 @@ class DurationRecorder:
 
 		interval_plot = plt.subplot(2, 2, 3)
 		plt.title("Interval")
-		plt.xlabel("Validation")
+		plt.xlabel("validation")
 		plt.ylabel("Seconds")
 
 		avg_diff = sum(cls.diff_list) / float(len(cls.diff_list))

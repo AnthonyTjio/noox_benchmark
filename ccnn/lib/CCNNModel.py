@@ -28,6 +28,7 @@ class CCNNModel(object):
 		pooled = tf.expand_dims(self.input_x, -1) # Adds channel dimension to the input in the last axis
 		pooled_outputs = []
 		
+ 
 		# Convolutional Layers
 		for index, cv in enumerate(CCNNConfig.model.conv_layers):
 			with tf.name_scope("conv-layer-{}".format(index)):
@@ -47,7 +48,6 @@ class CCNNModel(object):
 						padding= config.hyper.padding,
 						name= "conv{}".format(index))
 
-
 				else:
 					filter_shape = [1, cv[1], 
 									config.model.num_of_filters, config.model.num_of_filters]
@@ -58,19 +58,21 @@ class CCNNModel(object):
 					b = tf.Variable(tf.constant(0.1, shape=[config.model.num_of_filters]), name="b")
 
 					conv = tf.nn.conv2d(
-						h,
+						pooled,
 						W,
 						strides= config.hyper.strides,
 						padding= config.hyper.padding,
 						name= "conv{}".format(index))
-								
+				
+				
+
 				# Applying non-linearity
-				h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu{}".format(index))
+				pooled = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu{}".format(index))
 
 				# Applying max-pooling
 				if cv[-1] is not None:
 					pooled = tf.nn.max_pool(
-						h,
+						pooled,
 						ksize=[1, 1, cv[-1], 1],
 						strides=[1, 1, cv[-1], 1],
 						padding="VALID",

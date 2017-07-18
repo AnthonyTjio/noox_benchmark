@@ -2,7 +2,7 @@ class ModelConfig(object):
 	alphabets = "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}"
 	labels = "01"
 
-	frame_size = 8 # Embedding Size
+	frame_size = len(alphabets) # Embedding Size
 	embedding_size = frame_size
 
 	max_letter_count = 2048 # Sequence Length
@@ -22,7 +22,7 @@ class ModelConfig(object):
 	num_filters_total = (max_letter_count - 96) / 27 # 96: Unknown, 27 = pools multiplication (2^3)
 	num_features_total = int(num_filters_total * num_of_filters)
 
-	fully_connected_layers = [	[151808, 1024],
+	fully_connected_layers = [	[16128, 1024],
 								[1024, 1024],
 								[1024, num_of_classes]
 							 ]
@@ -31,8 +31,7 @@ class ModelConfig(object):
 
 class TrainingConfig(object):
 	drop_out = 0.5
-	learning_rate = 0.001	
-	num_of_epoches = 200
+	num_of_epoches = 100
 
 	evaluate_every = 1
 	checkpoint_every = 10

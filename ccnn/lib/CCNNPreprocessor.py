@@ -1,6 +1,7 @@
 import sys
-import binascii
 
+import tables
+import random 
 import numpy as np
 import json
 from random import randint
@@ -13,8 +14,8 @@ class CCNNPreprocessor:
 	config = CCNNConfig()
 	max_character_in_article = config.model.max_letter_count
 	
-	# alphabets = config.model.alphabets
-	# alphabets_length = len(alphabets)
+	alphabets = config.model.alphabets
+	alphabets_length = len(alphabets)
 
 	labels = config.model.labels
 	labels_length = len(labels)
@@ -39,13 +40,24 @@ class CCNNPreprocessor:
 		return np_data
 
 	@classmethod
-	def convert_dataset(cls, np_data, content_rows=[0, 1, 2], label_row=3, high_bit_dimension=False, convert_to_vector=True):
+	def convert_dataset(cls, np_data, content_rows=[1,2], label_row=3, reverse=True, convert_to_vector=True):
 		# Merge content_rows and remove all non-content and non-label rows
-		x_inputs = None
-		y_labels = None
+		content_file = tables.open_file('ccnn_input.h5', mode="w")
+		label_file = tables.open_file('ccnn_label.h5', mode="w")
+		x_inputs= content_file.create_vlarray(content_file.root, 
+													'ccnn_input', 
+													tables.Int8Atom(shape=(cls.alphabets_length, cls.max_character_in_article)), 
+													"ccnn inputs", 
+													filters=tables.Filters(1))
+		y_labels = label_file.create_vlarray(label_file.root,
+												'ccnn_label',
+												tables.Int8Atom(shape=(cls.labels_length)),
+												'ccnn lables',
+												filters=tables.Filters(1))	
 
 		for i, rows in enumerate(np_data):
-			print("Merging #{}".format(i))
+			if i % 100 == 0 :
+				print("Merging #{}".format(i))
 			content = ''
 			label = None
 
@@ -56,6 +68,8 @@ class CCNNPreprocessor:
 				elif(j == label_row):
 					label = column # Retrieve Label
 
+			content = ' '.join([i if ord(i) < 128 else '' for i in content])
+
 			# Limit Letter Count
 			if len(content) > cls.max_character_in_article:
 				content = content[:cls.max_character_in_article] 
@@ -65,54 +79,35 @@ class CCNNPreprocessor:
 			# Convert content & label to vector
 			content_vector = None
 			label_vector = None
-
 			label_eye = np.eye(cls.labels_length, dtype=int)
 
 			# Create content vector representation
-			if high_bit_dimension:
-				# 69-bit
-				for char in content:
-					char_vector = np.zeros(len(cls.config.model.alphabets), dtype=np.int32)
+			for char in content:
+				char_vector = np.zeros(cls.alphabets_length, dtype=np.int32)
 
-					char_index = cls.alphabets.find(char)
-					if char_index != -1: # If char is in the alphabet
-						char_vector[char_index] = 1 # Set one-hot-vector
+				char_index = cls.alphabets.find(char)
+				if char_index != -1: # If char is in the alphabet
+					char_vector[char_index] = 1 # Set one-hot-vector
 
-					if reverse: # Based on the paper, the content vector should be reversed
-						char_vector = np.flip(char_vector, 0)
+				char_vector = np.array([char_vector])
 
-					char_vector = np.array([char_vector])
+				if content_vector is not None:
+					content_vector = np.append(content_vector, char_vector, axis=0)						
+				else:
+					content_vector = char_vector
 
-					if content_vector is not None:
-						content_vector = np.append(content_vector, char_vector, axis=0)						
-					else:
-						content_vector = char_vector
-
-			else:
-				# 8-bit
-				for char_v in cls.iter_bin(content):
-					char_vector = np.array(list(map(int, char_v)))				
-					if content_vector is not None:
-						content_vector = np.append(content_vector, [char_vector], axis=0)						
-					else:
-						content_vector = np.array([char_vector])
-
-			content_vector = content_vector.T 
+			content_vector = content_vector.T			
 			label_vector = label_eye[int(label)]
 
-			if x_inputs is not None:
-				x_inputs = np.append(x_inputs, [content_vector], axis=0)
-				y_labels = np.append(y_labels, [label_vector], axis=0)
-			else:
-				x_inputs = np.array([content_vector])
-				y_labels = np.array([label_vector])
+			x_inputs.append(content_vector)
+			y_labels.append(label_vector)
+
+			del(content)
+			del(content_vector)
+			del(label_vector)
+
 
 		return x_inputs, y_labels
-
-	@classmethod
-	def iter_bin(cls, string):
-		sb = string.encode('ascii')
-		return (format(b, '08b') for b in sb)
 
 	@classmethod
 	def convert_content_data_to_vector(cls, np_data, alphabet, reverse=True):
@@ -121,6 +116,9 @@ class CCNNPreprocessor:
 			temp_np = None
 			
 			vec = np.array(cls.convert_str_to_vector(txt, alphabet))
+			if reverse:
+				vec = np.flip(vec, 0)
+
 			temp_np = np.array([vec])
 
 			if np_product is not None:
@@ -161,11 +159,46 @@ class CCNNPreprocessor:
 		return vector
 
 	@classmethod
-	def shuffleData(cls, data_size):		
+	def shuffleData(cls, data, label_row=3, ratio=0.6):		
 		np.random.seed(randint(0,300))
 
-		shuffle_indices = np.random.permutation(np.arange(data_size))
-		return shuffle_indices
+		shuffle_indices = np.random.permutation(len(data)-1)
+
+		training_indices = []
+		test_indices = []
+
+		label_0_indices = []
+		label_1_indices = []
+		for i in shuffle_indices:
+			if (data[i][label_row] == '0'):
+				label_0_indices.append(i)
+			else:
+				label_1_indices.append(i)
+
+		training_size = int(len(data) * ratio)
+
+		random.seed(2000)
+		random.shuffle(label_0_indices)
+		random.shuffle(label_1_indices)
+
+		batch_size = cls.config.training.batch_size
+		d1_size = int(batch_size * float(len(label_1_indices) / len(data)))
+		d0_size = batch_size - d1_size
+		d_indices = []
+		
+		i = 0
+		while i*batch_size < len(data):
+			d_indices.extend(label_0_indices[i*d0_size: (i+1)*d0_size])
+			d_indices.extend(label_1_indices[i*d1_size: (i+1)*d1_size])
+			i += 1
+		print(d0_size)
+		print(d1_size)
+		print(len(d_indices))
+
+		training_indices.extend(d_indices[:training_size])
+		test_indices.extend(d_indices[training_size:])
+
+		return training_indices, test_indices
 
 	@classmethod
 	def get_letter_count_information_from_article_list(cls, training_dir, content_rows=[1,2]):
